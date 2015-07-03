@@ -35,7 +35,7 @@ var app               = express(),
 //******************************************************************************
 // CONNECT TO MONGODB on MONGOLAB and EXPORT mongoose
 //
-mongoose.connect('mongodb://admin:admin@ds033469.mongolab.com:33469/binger');
+mongoose.connect('mongodb://admin:xxxx@xxxxxxx.mongolab.com:33469/binger');
 exports.mongoose = mongoose;
 
 //******************************************************************************
